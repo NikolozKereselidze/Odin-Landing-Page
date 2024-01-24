@@ -1,1 +1,94 @@
+/* RESET CSS */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: serif;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
 /* HERO SECTION */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+  background-color: #1f2539;
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  padding: 12px 142px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo img {
+  width: 84px;
+  height: 84px;
+  border-radius: 8px;
+}
+
+.header-links a,
+.hero-info p {
+  font-size: 18px;
+  color: #ffffffcf;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.header-links {
+  display: flex;
+  gap: 16px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-items: center;
+  padding: 72px 0;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-basis: 450px;
+}
+
+.hero-info p {
+  margin-bottom: 12px;
+}
+
+.hero-image img {
+  width: 500px;
+  height: 380px;
+  border-radius: 24px;
+  object-fit: cover;
+}
+
+.hero-info h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.hero-button {
+  max-width: 30%;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bold;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+}
