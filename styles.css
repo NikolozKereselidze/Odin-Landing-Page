@@ -129,3 +129,32 @@ header {
   font-style: italic;
   color: #1f2937;
 }
+
+/* CTA SECTION */
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3882f6;
+  margin: 0 200px;
+  padding: 24px 80px;
+  border-radius: 8px;
+}
+
+.cta-info h3 {
+  color: #fff;
+  margin-bottom: 3px;
+}
+
+.cta-info p {
+  color: #e5e7eb;
+}
+
+.cta-button button {
+  color: #fff;
+  background-color: inherit;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  padding: 8px 32px;
+  cursor: pointer;
+}
