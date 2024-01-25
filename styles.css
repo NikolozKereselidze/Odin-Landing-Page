@@ -2,6 +2,7 @@
 body {
   display: flex;
   flex-direction: column;
+  gap: 36px;
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -95,7 +96,6 @@ header {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 48px;
   gap: 36px;
 }
 
@@ -112,3 +112,5 @@ header {
   align-items: center;
   gap: 8px;
 }
+
+/* QUOTE SECTION */
