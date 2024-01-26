@@ -14,10 +14,14 @@ p {
   margin: 0;
 }
 
+.header-container,
+footer {
+  background-color: #1f2539;
+}
+
 /* HERO SECTION */
 
 .header-container {
-  background-color: #1f2539;
   display: flex;
   flex: auto;
   flex-direction: column;
@@ -157,4 +161,11 @@ header {
   border-radius: 6px;
   padding: 8px 32px;
   cursor: pointer;
+}
+
+/* FOOTER SECTION */
+footer {
+  text-align: center;
+  color: #e5e7eb;
+  padding: 12px 0;
 }
